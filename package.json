@@ -1,0 +1,16 @@
+{
+  "name": "test-stopwatch",
+  "version": "0.0.1",
+  "description": "test for ts-stopwatch",
+  "main": "index.js",
+  "author": "Panagiotis Cheilaris <philaris@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^8.10.1",
+    "ts-stopwatch": "github:philaris/ts-stopwatch#master",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "stopwatch": "ts-node src/server.ts"
+  }
+}
